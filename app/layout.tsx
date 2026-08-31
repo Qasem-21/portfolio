@@ -11,10 +11,9 @@ const inter = Inter({
   variable: "--font-inter",
   display: "swap",
 });
-
 const jbMono = JetBrains_Mono({
   subsets: ["latin"],
-  variable: "--font-jbmono",
+  variable: "--font-inter",
   display: "swap",
 });
 

@@ -118,12 +118,12 @@ export function Hero() {
                 <span className="absolute inset-2 rounded-full border border-background/40" />
 
                 <span className="relative flex flex-col items-center">
-                  Lets
+                  Let&apos;s
                   <br />
                   talk
                 </span>
 
-                <MoveUpRight className="absolute right-8 top-8 size-4 opacity-70 transition-transform duration-300 group-hover:translate-x-1 group-hover:-translate-y-1" />
+                {/* <MoveUpRight className="absolute right-8 top-8 size-4 opacity-70 transition-transform duration-300 group-hover:translate-x-1 group-hover:-translate-y-1" /> */}
               </motion.a>
             </motion.div>
           </motion.div>
@@ -171,7 +171,7 @@ export function Hero() {
               className="relative z-10 h-[90%] w-[80%] max-w-[520px] lg:h-[75%] lg:w-[85%] lg:max-w-[650px]"
             >
               <Image
-                src="/images/qasem-portrait.png"
+                src="/images/qasem.png"
                 alt={`${profile.name} portrait`}
                 fill
                 priority
@@ -187,7 +187,7 @@ export function Hero() {
           initial={{ opacity: 0, x: -15 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ delay: 0.9, duration: 0.6 }}
-          className="absolute top-90 left-16 z-20 flex -translate-x-1/2 flex-col items-center gap-7 lg:bottom-12 lg:left-6 lg:translate-x-0 lg:flex-col"
+          className="absolute top-96 left-16 z-20 flex -translate-x-1/2 flex-col items-center gap-7 lg:bottom-12 lg:left-6 lg:translate-x-0 lg:flex-col"
         >
           {socialLinks.map((social) => (
             <motion.a
