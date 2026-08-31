@@ -6,21 +6,29 @@ export const profile = {
     "I build modern, scalable web applications with React, Next.js, TypeScript, Express, and NestJS",
   introduction:
     "A full-stack developer focused on building clean, responsive user experiences and reliable, scalable backend systems",
-  email: "qasimmohammadi@gmail.com",
+  email: "qasimmohammadi520@gmail.com",
 };
 
 export const navigation = [
   {
-    label: "Works",
-    href: "#projects",
-  },
-  {
-    label: "Experience",
-    href: "#experience",
+    label: "Home",
+    href: "#home",
   },
   {
     label: "About",
     href: "#about",
+  },
+  {
+    label: "Skills",
+    href: "#skills",
+  },
+  {
+    label: "Projects",
+    href: "#projects",
+  },
+  {
+    label: "Contact",
+    href: "#contact",
   },
 ];
 
