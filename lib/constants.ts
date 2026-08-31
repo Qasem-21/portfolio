@@ -44,3 +44,26 @@ export const hero = {
   availability: "Open to opportunities",
   cta: "Let's talk",
 };
+
+
+export const about = {
+  title: "A little bit about me",
+
+  description:
+    "I'm a Full Stack Developer who enjoys turning ideas into simple, modern, and meaningful web experiences. I love working with React, Next.js, TypeScript, and NestJS to build applications that are fast, responsive, and easy to use. I'm always curious to learn, improve my skills, and take on new challenges that help me grow as a developer",
+
+  location: {
+    label: "Based in",
+    value: "Kabul, Afghanistan",
+  },
+
+  experience: {
+    value: "2+",
+    label: "Years experience",
+  },
+
+  projects: {
+    value: "10+",
+    label: "Projects Built",
+  },
+};
