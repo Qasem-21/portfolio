@@ -75,3 +75,64 @@ export const about = {
     label: "Projects Built",
   },
 };
+export const skills = [
+  // Frontend
+  {
+    name: "Next.js",
+    percentage: 95,
+  },
+  {
+    name: "React",
+    percentage: 90,
+  },
+  {
+    name: "TypeScript",
+    percentage: 90,
+  },
+  {
+    name: "Tailwind CSS",
+    percentage: 90,
+  },
+  {
+    name: "JavaScript",
+    percentage: 90,
+  },
+
+  // Backend
+  {
+    name: "Node.js",
+    percentage: 85,
+  },
+  {
+    name: "Express.js",
+    percentage: 90,
+  },
+  {
+    name: "NestJS",
+    percentage: 80,
+  },
+
+  // Database
+  {
+    name: "PostgreSQL",
+    percentage: 90,
+  },
+  {
+    name: "Prisma",
+    percentage: 80,
+  },
+  {
+    name: "MySQL",
+    percentage: 90,
+  },
+
+  // Tools & DevOps
+  {
+    name: "Git & GitHub",
+    percentage: 100,
+  },
+  {
+    name: "Docker",
+    percentage: 70,
+  },
+];
