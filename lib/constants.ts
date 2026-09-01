@@ -42,8 +42,8 @@ export const socialLinks = [
     href: "https://github.com/Qasem-21",
   },
   {
-    label: "X",
-    href: "#",
+    label: "Instagram",
+    href: "#/instagram",
   },
 ];
 

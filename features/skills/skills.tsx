@@ -1,4 +1,3 @@
-// app/components/skills.tsx
 "use client";
 
 import { useRef, useState } from "react";
@@ -195,7 +194,7 @@ export function Skills() {
     <section
       ref={ref}
       id="skills"
-      className="relative overflow-hidden border-t border-border/40 py-12 sm:py-12 lg:py-14"
+      className="relative overflow-hidden border-t border-border/40 py-22 lg:py-18"
     >
       {/* Background decorations */}
       <div className="absolute inset-0 -z-10">
