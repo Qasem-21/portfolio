@@ -59,7 +59,7 @@ export function About() {
     <section
       id= "about"
       ref={ref}
-      className="relative overflow-hidden border-t border-border/40 py-12 sm:py-16 lg:py-20"
+      className="relative overflow-hidden border-t border-border/40 py-18 lg:py-20"
     >
       <div className="container-page">
         <motion.div
