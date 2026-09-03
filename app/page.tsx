@@ -3,6 +3,7 @@ import { Hero } from "@/features/hero/hero";
 import { About } from "@/features/about/about";
 import { Skills } from "@/features/skills/skills";
 import { Contact } from "@/features/contact/contact";
+import { Projects } from "@/features/projects/projects";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
       <Hero />
       <About/>
       <Skills/>
+      <Projects/>
       <Contact/>
     </main>
   );

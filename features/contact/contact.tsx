@@ -1,23 +1,22 @@
 "use client";
 
-import { useRef, useState } from "react";
-import { motion, useInView, type Variants } from "motion/react";
 import {
+  ArrowRight,
+  CheckCircle,
   Mail,
   MapPin,
+  MessageSquare,
   Phone,
   Send,
-  CheckCircle,
-  ArrowRight,
-  MessageSquare,
   Sparkles,
 } from "lucide-react";
+import { motion, useInView, type Variants } from "motion/react";
+import { useRef, useState } from "react";
 
 import { profile, socialLinks } from "@/lib/constants";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
-import { SiX } from "react-icons/si";
-import { toast } from "sonner";
 import { FaInstagram } from "react-icons/fa6";
+import { toast } from "sonner";
 
 const containerVariants: Variants = {
   hidden: { opacity: 0 },
@@ -116,7 +115,7 @@ export function Contact() {
   };
 
   const handleChange = (
-    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
+    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>,
   ) => {
     setFormState((prev) => ({
       ...prev,
@@ -185,7 +184,9 @@ export function Contact() {
                   <div key={method.label} className="group relative">
                     <a
                       href={method.href}
-                      target={method.label === "Location" ? "_blank" : undefined}
+                      target={
+                        method.label === "Location" ? "_blank" : undefined
+                      }
                       rel={
                         method.label === "Location"
                           ? "noopener noreferrer"
@@ -225,7 +226,14 @@ export function Contact() {
                           strokeLinecap="round"
                           strokeLinejoin="round"
                         >
-                          <rect x="9" y="9" width="13" height="13" rx="2" ry="2" />
+                          <rect
+                            x="9"
+                            y="9"
+                            width="13"
+                            height="13"
+                            rx="2"
+                            ry="2"
+                          />
                           <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1" />
                         </svg>
                       </button>
@@ -248,8 +256,8 @@ export function Contact() {
                     social.label === "GitHub"
                       ? FaGithub
                       : social.label === "LinkedIn"
-                      ? FaLinkedin
-                      : FaInstagram
+                        ? FaLinkedin
+                        : FaInstagram;
                   return (
                     <motion.a
                       key={social.label}
@@ -397,8 +405,8 @@ export function Contact() {
                   </motion.button>
 
                   <p className="text-center text-xs text-muted-foreground">
-                    <Sparkles className="inline size-3" />
-                    I typically respond within 24 hours
+                    <Sparkles className="inline size-3" />I typically respond
+                    within 24 hours
                   </p>
                 </form>
               )}
